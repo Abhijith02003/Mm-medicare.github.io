@@ -1,0 +1,1188 @@
+/********** Template CSS **********/
+:root {
+    --primary: #0463FA;
+    --light: #EFF5FF;
+    --dark: #1B2C51;
+
+}
+
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+* body {
+    background-color: rgb(255, 255, 255);
+}
+.fw-medium {
+    font-weight: 100 !important;
+}
+
+.fw-bold {
+    font-weight: 200 !important;
+}
+
+.fw-black {
+    font-weight: 100 !important;
+}
+
+/*** Button ***/
+.btn {
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+
+/*** Navbar ***/
+
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 20px 0px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 100;
+    outline: none;
+    /* background-color: #01E193; */
+}
+#navbartextclr{
+    color: #3d3b3b;
+
+}
+#navbartextclr :hover{
+    color: #32B3A7;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: #32B3A7;
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+.navbar .navbar-brand,
+.navbar a.btn {
+    height: 75px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.navbar.sticky-top {
+    top: -100px;
+    transition: .5s;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 0;
+    }
+}
+
+
+/*** Header ***/
+.header-carousel .owl-carousel-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.header-carousel .owl-nav {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-next {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    font-size: 22px;
+    transition: .5s;
+}
+
+.header-carousel .owl-nav .owl-prev:hover,
+.header-carousel .owl-nav .owl-next:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.header-carousel .owl-dots {
+    position: absolute;
+    height: 45px;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.header-carousel .owl-dot::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    top: 4px;
+    left: 4px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.header-carousel .owl-dot.active {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.page-header {
+    background: url(../img/header-page.jpg) top center no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: var(--light);
+}
+
+
+/*** Service ***/
+
+/* .service-item:hover {
+    margin-top: -10px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+} */
+
+.service-item .btn {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service-item:hover .btn {
+    width: 140px;
+}
+
+
+/*** Footer ***/
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid #FFFFFF;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--primary);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .copyright a:hover {
+    color: var(--primary);
+}
+
+/* ###################################################################################################################################################################
+   ###################################################################################################################################################################*/
+
+/* NAV BAR START */
+b,strong{
+    font-family: "Inter", sans-serif; /* MenuBar Font  */
+}
+
+element.style {
+    background-color: rgb(245, 252, 255);
+    visibility: visible;
+    animation-delay: 0.1s;
+    height: 70px;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 23px;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+}
+#navbarCollapse{
+    margin-left: 500px;
+}
+#cntctbtn {
+    border: 1px solid #32B3A7;
+    border-radius: 10px;
+    width: 193px;
+    height: 50px;
+    background-color: #f5f8fc;
+    background-image: linear-gradient(60deg,#1885F2, #01E193);
+    background-clip: text;
+    color: transparent;
+    margin-top: 0px;
+    margin-right: 15%;
+    font-weight: 600;
+    padding: 14px 25px;
+}
+.img-responsive {
+    margin-top: 8px;
+    width: 250px;
+    height: 46px;
+    margin-left: 170px;
+}
+/* HOME PAGE START */
+#homehead2{
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+    color: black;
+    line-height: 76px;
+    width: 700px;
+}
+#homehead1{
+    font-size: 26px;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+#homepara{
+    margin-top: 15%;
+    color: #6e83a5;
+    font-family: "Inter", sans-serif;
+}
+#homepara2{
+    font-size: 20px;
+    width: 450px;
+    color: #7487A5;
+}
+#frgirl{
+    width: 815px;
+    height: 850px;
+    margin-top:-10%;
+    margin-left: -100px;
+}
+/* #frgirl_img2{
+    width: 268px;
+    height: 130px;
+    margin-top: -600px;
+    margin-left: -50px;
+}
+#frgirl_img3{
+    width: 250px;
+    height: 292px;
+    margin-top: -180%;
+    margin-left: 150px;
+}
+#frgirl_img4{
+    width: 75px;
+    height: 75px;
+    margin-top: -180%;
+    margin-left: 80px;
+}
+#frgirl_img5{
+    width: 70px;
+    height: 70px;
+    margin-top: -235%;
+    margin-left: 280px;
+} */
+#frgirl_img6{
+    width: 66px;
+    height: 66px;
+    margin-top: -120%;
+    margin-left: 540px;
+}
+#btn {
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #32B3A7, #F8C6A1);
+    border: 1px solid white;
+    color: white;
+    border-radius: 7px;
+    width: 258px;       
+    height: 50px;
+    margin-top: 38px;
+    font-size: 14px;
+}
+#indexfootsect{
+    background-image: linear-gradient(to right,#32B3A7 , #F2BF99); 
+    margin-top: -153px;
+}
+#homehr1{
+    display: none;
+    color: rgb(255, 255, 255);
+}
+#footcont{
+    margin-left: -50px;
+}
+#footcont2{
+    margin-left: 90px;
+}
+#footcont3{
+    margin-top: -170px;
+    margin-left: 76%;
+}
+#footer_img1, #footer_img2, #footer_img3{
+    width: 65px;
+    height: 65px;
+}
+#font1, #font2, #font3{
+    font-size: 41px;
+    color: white;
+}
+#font1-1{
+    font-size: 20px;
+    color: white;
+    width: 245px;
+    margin-top: -10px;
+}
+#font2-1{
+    font-size: 20px;
+    color: white;
+    width: 275px;
+    margin-top: -10px;
+}
+#font3-1{
+    font-size: 20px;
+    color: white;
+    margin-top: -10px;
+}
+
+
+/******************** ABOUTUS START *********************/
+#secionabout{
+    background-color: #32B3A7;
+    height: 910px;
+}
+#aboutus_titleimg{
+    margin-left: 370px;
+    margin-top: -238%;
+}
+.text_about1-1{
+    margin-top: -46%;
+    margin-left: 52%;
+    width: 51%;
+}
+#aboutmainhead{
+    padding-left: 15px;
+    color: #1B1B1B;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+#welcomeabout{
+    font-size: 35px;
+    color: #1B1B1B;
+}
+#welcomeabout-modal{
+    color: black;
+}
+.aboutp{
+    margin-top: 20px;
+    color: #7487A5;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+.aboutp1{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+#btn1 {
+    background-color: rgb(255, 255, 255);
+    color: #32B3A7;
+    border: 1px solid #32B3A7;
+    border-radius: 10px;
+    width: 175px;       
+    height: 50px;
+    margin-top: 50px;
+    font-family: "Inter", sans-serif;
+}
+#btn2 {
+    font-family: "Inter", sans-serif;
+    background-color: #32B3A7;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 175px;
+    height: 50px;
+    margin-top: 50px;
+}
+.text_about2 {
+    margin-top: 230px;
+}
+#aboutourmissionhead{
+    padding-left: 15px; color: white; font-size: 35px;
+}
+#aboutsurfaceimg1{
+    width: 450px;
+    height: 570px;
+}
+#aboutsurfaceimg{
+    margin-top: -39%;
+    margin-left: 27%;
+    width: 376px;
+    height: 331px;
+}
+#aboutimg1{
+    margin-top: 10px;
+}
+#aboutimg2{
+    margin-top: -46%;
+    margin-left: 51%;
+}
+#surface_2{
+    margin-top: -105%;
+    margin-left: 40px;
+    width: 376px;
+    height: 331px;
+}
+#surface_2_1{
+    margin-top: 130px;
+    margin-left: 170px;
+    width: 450px;
+    height: 570px;
+}
+#sectionabout2{
+    background-color: #32B3A7;
+}
+/****************** ABOUTUS START ******************/
+
+/****************** ABOUTUS MODAL START ******************/
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    color: #7487A5;
+    margin: auto;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid #888;
+    width: 50%;
+}
+#modalsentence{
+    font-family: "Inter", sans-serif;
+}
+
+/* The Close Button */
+.close {
+    color: gray;
+    font-size: 28px;
+    font-weight: 100;
+    margin-left: 107%;
+    margin-top: -30px;
+}
+
+.close:hover,
+.close:focus {
+    color: #32B3A7;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/****************** ABOUTUS MODAL END ******************/
+
+/* ***************** DEPARTMENT START ***************** */
+#departmentsection{
+    height: 1660px;
+}
+.mybox1{
+    display: none;
+}
+#deptmainhead{
+    color: #101828;
+    font-size: 35px;
+    margin-top: 70px;
+}
+.deptpara{
+    color: #7487A5;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-top: 15px;
+    width: 810px;
+}
+.deptsbox-paed{
+    width: 410px;
+    height: 285px;
+    background-color: #ebf8f5;
+    border-radius: 12px;
+}
+.deptsbox {
+    width: 410px;
+    height: 255px;
+    background-color: #ebf8f5;
+    border-radius: 12px;
+}
+.mybuttons { 
+    font-size: 14px; 
+    color: #32B3A7; 
+    border: none; 
+    border-radius: 3px;
+    background-color: #e8fffa;
+    letter-spacing: 0.5px;
+    margin-left: 20px;
+}
+#mybuttonid{
+    margin-top: 20px;
+}
+#mybuttonid2, #mybuttonid3, #mybuttonid4,#mybuttonid7, #mybuttonid8, #mybuttonid9, #mybuttonid10, #mybuttonid13 {
+    margin-top: 42px;
+}
+#mybuttonid5, #mybuttonid6, #mybuttonid11, #mybuttonid12{
+    margin-top: 20px;
+}
+#paed{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#paedp{
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    padding-right: 10px;
+    color: #475467;
+    font-weight: 400;
+}
+#derma, #entp, #cardio{
+    color: #475467;
+    margin-left: 20px;
+    width: 390px;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding-right: 10px;
+}
+#dept1{
+    margin-top: -280px;
+    margin-left: 66.5%;
+}
+.depthead{
+    margin-top: 45px;
+    margin-left: 20px;
+    color: black;
+    font-weight:600;
+    font-size: 20px;
+}
+/* DEPARTMENT END */
+
+/* SERVICE PAGE  */
+#facilitysect{
+    background-image: linear-gradient(to right, #32B3A7, #F8C6A1);
+}
+#facilityhead{
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-top: 60px;
+}
+#facilty_img2{
+    margin-top: -108%;
+    margin-left: 285px;
+    width: 300px;
+    height: 300px;
+}
+#facilty_img1{
+    margin-top: 100px;
+    width: 450px;
+    height: 570px;
+}
+.facilitypara{
+    color: white;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    width: 900px;
+}
+.facilabel{
+    padding-top: 130px;
+}
+#labelfaci {
+    padding-left: 20px;
+    color: rgb(63, 58, 58);
+    margin-top: 110px;
+    padding-top: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.753) 40%, rgba(255, 255, 255, 0.295) 90%);
+}
+#labelfaci2 {
+    padding-left: 20px;
+    padding-top: 14px;
+    color: rgb(63, 58, 58);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.753) 40%, rgba(255, 255, 255, 0.295) 90%);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    font-family: "Inter", sans-serif;
+}
+#labelfaci3 {
+    padding-left: 20px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.753) 40%, rgba(255, 255, 255, 0.295) 90%);
+    color: rgb(63, 58, 58);
+    margin-top: 10px;
+    padding-top: 14px;
+    height: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+#faci3{
+    font-size: 14px;
+    opacity: 90%;
+}
+#faci3_1{
+    margin-top: -10px;
+    font-size: 14px;
+    opacity: 90%;
+}
+#labelfaci4 {
+    padding-left: 20px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.753) 40%, rgba(255, 255, 255, 0.295) 90%);
+    color: rgb(63, 58, 58);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    padding-top: 13px;
+    font-family: "Inter", sans-serif;
+}
+#labelfaci7 {
+    padding-left: 20px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.753) 40%, rgba(255, 255, 255, 0.295) 90%);
+    color: rgb(63, 58, 58);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    padding-top: 13px;
+    font-family: "Inter", sans-serif;
+}
+#labelfaci5 {
+    padding-left: 20px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.753) 40%, rgba(255, 255, 255, 0.295) 90%);
+    color: rgb(63, 58, 58);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 76px;
+    padding-top: 10px;
+    font-family: "Inter", sans-serif;
+}
+#labelfaci6 {
+    padding-left: 20px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.753) 40%, rgba(255, 255, 255, 0.295) 90%);
+    color: rgb(63, 58, 58);
+    margin-top: 10px;
+    font-size: 16px;
+    height: 70px;
+    padding-top: 13px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+
+
+/**** SERVICE HIGHLIGHT START ****/
+#highlightsection{
+    background-color: #ecedf0; margin-top: -45px;
+    height: 800px;
+}
+#serviceheading{
+    color: #101828;
+    font-size: 35px;
+    margin-top: 60px;
+}
+#doctconsulthead, #vidconsulthead, #labservicehead, #homecollectionhead{
+    color: #101828;
+}
+#servicebox1{
+    width: 280px;
+}
+#servicebox1, #servicebox2, #servicebox3, #servicebox4{
+    height: 120px;
+    color: #475467;
+    font-family: "Inter", sans-serif;
+}
+#servimg1{
+    width: 500px;
+}
+
+
+/**** SERVICE HIGHLIGHT START ****/
+
+/* HEALTH HOVER START */
+#hoveringimgs{
+    margin-top: 55%;
+}
+.imghover {
+    width: 100px;
+    height: 100px;
+    margin-left: 165px;
+    margin-top: -190px;
+}
+.imghover img {
+    object-fit: cover;
+    transition: 0.4s;
+}
+.imghover #cancerimg:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+.imghover1 {
+    width: 100px;
+    height: 100px;
+    margin-left: -630px;
+    margin-top: -190px;
+}
+.imghover1 img {
+    object-fit: cover;
+    transition: 0.4s;
+}
+.imghover1 #specialhealthimg:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+.imghover2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+    margin-top: -420px;
+}
+.imghover2 img {
+    object-fit: cover;
+    transition: 0.4s;
+}
+.imghover2 #womenimg:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+.imghover3 {
+    width: 100px;
+    height: 100px;
+    margin-left: 165px;
+    margin-top: -420px;
+}
+.imghover3 img {
+    object-fit: cover;
+    transition: 0.4s;
+}
+.imghover3 #diabetesimg:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+.imghover4 {
+    width: 100px;
+    height: 100px;
+    margin-left: -368px;
+    margin-top: 40px;
+}
+.imghover4 img {
+    object-fit: cover;
+    transition: 0.4s;
+}
+.imghover4 #cardiacimg:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+.imghover5 {
+    width: 100px;
+    height: 100px;
+    margin-left: 167px;
+    margin-top: 40px;
+}
+.imghover5 img {
+    object-fit: cover;
+    transition: 0.4s;
+}
+.imghover5 #medicalimg:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+.imghover6 {
+    width: 100px;
+    height: 100px;
+    margin-left: 190px;
+    margin-top: -190px;
+}
+.imghover6 img {
+    object-fit: cover;
+    transition: 0.4s;
+}
+.imghover6 #centerimg:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+#healthpackbg{
+    height: 995px;
+}
+.healthpack{
+    margin-top: 20%;
+    margin-left: 320px;
+}
+#healthp1{
+    padding-left: 15px;
+    color: #101828;
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+#healthh1{
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    width: 608px;
+}
+#healthp2{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+    width: 560px;
+    color: #7487A5;
+}
+
+/* HEALTH HOVER START */
+
+/* CONTACT PAGE START */
+.contactimg{
+    background: url(../media/contactimg.png) top center no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    height: 530px;
+}
+#contacthead1{
+    font-size: 20px;
+}
+.container{
+    margin-top: 30px;
+}
+#contactpara{
+    width: 600px;
+    height: 72px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;   
+    color: white;
+    margin-top: 20px;
+}
+.text-white{
+    font-size: 20px;
+    letter-spacing: .5px;
+    font-weight: 100px;
+    padding-top: 35px;
+}
+#contacthead{
+    color: white;
+    width: 500px;
+    font-size: 35px;
+    padding-top: 20px;
+    letter-spacing: .5px;
+}
+#contactbtn-div{
+    margin-top: 50px;
+}
+#btn3 {
+    background-color: #32B3A7;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 0px;
+    letter-spacing: .5px;
+    padding: 15px 24px;
+    font-size: 16px;
+
+}
+
+#contactfootersection{
+    margin-top: -48px;  background-color: #1A1A22;
+    height: 600px;
+}
+
+#headoffice{
+    color: white; opacity: 80%; font-size: 15px; font-weight: 100;
+}
+#contactheadpara{
+    color: white; width: 286px; height: 52px; font-size: 16px;
+}
+#headoffno1{
+    color: white; width: 150px; height: 12px; font-size: 16px; padding-left: 25px;
+}
+#contactnoicon{
+    margin-top: -63px;
+}
+#headoffno2{
+    color: white; width: 150px; height: 12px; font-size: 16px; padding-left: 25px; margin-top: -20px;
+}
+#contactnoicon1{
+    margin-top: -60px;
+}
+#linkedinicon, #fbicon{
+    margin-left: 20px;
+}
+
+
+#branches{
+    color: #FFFFFF; opacity: 80%; font-size: 15px; font-weight: 100;
+}
+#karuvanthalabranch{
+    color: white; width: 286px; height: 52px; font-size: 16px;
+}
+#arimboorbranch, #anthikadbranch{
+    color: white; width: 286px; height: 52px; font-size: 16px; margin-top: -20px;
+}
+#kanjanybranch{
+    color: white; width: 286px; height: 52px; font-size: 16px; margin-top: 20px;
+}
+#amalanagarbranch{
+    color: white; width: 286px; height: 52px; font-size: 16px; margin-top: -20px;
+}
+
+#phoneicon1{
+    margin-left: 120px; margin-top: -328px;
+}
+#phoneicon2{
+    margin-left: -15px; margin-top: -228px;
+}
+#phoneicon3{
+    margin-left: -16px; margin-top: -135px;
+}
+#phoneicon4{
+    margin-left: 122px; margin-top: -228px;
+}
+#phoneicon5{
+    margin-left: -15px; margin-top: -138px;
+}
+
+#karuvanthalanumb{
+    color: white; width: 300px; height: 12px; font-size: 16px; padding-left: 145px; margin-top: -185px;
+}
+#arimboornumb{
+    color: white; width: 300px; height: 12px; font-size: 16px; padding-left: 145px; margin-top: 37px;
+}
+#anthikadnumb{
+    color: white; width: 300px; height: 12px; font-size: 16px; padding-left: 145px; margin-top: 34px;
+}
+#kanjanynumb{
+    color: white; width: 300px; height: 12px; font-size: 16px; padding-left: 145px; margin-top: -136px;
+}
+#amalanagarnumb{
+    color: white; width: 300px; height: 12px; font-size: 16px; padding-left: 145px; margin-top: 34px;
+}
+
+#company{
+    color: white; font-size: 16px; width: 75px; font-weight: 100;
+}
+#companyabout{
+    width: 84px; height: 16px; font-size: 17px; color: #5D6366; margin-top: 14px;
+}
+#companydept, #companyservice{
+    width: 84px; height: 16px; font-size: 17px; color: #5D6366; margin-top: 22px;
+}
+#companycontact{
+    width: 88px; height: 16px; font-size: 17px; color: #5D6366; margin-top: 22px;
+}
+
+.footpara{
+    margin-top: 60px;
+}
+.footpara2{
+    margin-top: 200px;
+}
+.footpara3{
+    margin-top: 200px; 
+}
+.footpara4{
+    margin-top: 60px; 
+    margin-left: 100px;
+}
+#hr3{
+    width: 260px; margin-top: 34px;
+}
+
+#companyhr{
+    display: none;
+}
+#copyrightfirst{
+    width: 473px;
+    height: 10px;
+    font-size: 15px;
+    color: #5D6366;
+}
+#copyrightsecond{
+    width: 88%;
+    height: 10px;
+    font-size: 15px;
+    color: #5D6366;
+}
+#copyrighthr1{
+    width: 222px;
+    margin-left: 65.5%;
+    margin-top: -4px;
+}
+/* #copyrighthr2{
+    width: 93px;
+    margin-left: 85.3%;
+    margin-top: -17px;
+} */
+#workinghours{
+    margin-top: -40px;
+    margin-left: 335px;
+    width: 500px;
+    color: white;
+}
+#span1{
+    color: #32B3A7;
+}
+/* CONTACT PAGE END */
+
+
+.aboutparagraph1{
+    margin-top: 20px;
+    color: #7487A5;
+    font-size: 20px;
+    line-height: 25px;
+}
+.aboutparagraph2, .aboutparagraph3, .aboutparagraph4{
+    margin-top: 0px;
+    color: #7487A5;
+    font-size: 20px;
+    line-height: 25px;
+}

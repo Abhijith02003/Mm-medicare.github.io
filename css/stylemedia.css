@@ -1,0 +1,2443 @@
+/* ### NAVBAR BUTTON ### */
+@media screen and (max-width: 400px) and (min-width: 350px){
+    #cntctbtn{
+        margin-top: -10px;
+        margin-left: 20px;
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .img-responsive{
+        width: 180px;
+        height: 35px;
+        margin-top: 15px;
+        margin-left: -110px;
+    }
+    #navbarCollapse{
+        margin-left: auto;
+        height: 330px;
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 400px){
+    #cntctbtn{
+        margin-top: -10px;
+        margin-left: 20px;
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .img-responsive{
+        width: 180px;
+        height: 35px;
+        margin-top: 15px;
+        margin-left: -150px;
+    }
+    #navbarCollapse{
+        margin-left: auto;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px){
+    #cntctbtn{
+        margin-top: -10px;
+        margin-left: 20px;
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .img-responsive{
+        width: 210px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: -310px;
+    }
+    #navbarCollapse{
+        margin-left: 20px;
+        height: 330px;
+    }
+
+}
+@media screen and (max-width: 1650px) and (min-width: 1000px){
+    #cntctbtn{
+        margin-top: -5px;
+        margin-left: -0px;
+        width: 300px;
+        height: 40px;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    #navbartextclr{
+        width: 75px;
+    }
+    .head-service{
+        margin-left: 35px;
+    }
+    .img-responsive{
+        width: 300px;
+        margin-top: 15px;
+        margin-left: auto;
+    }
+    #navbarCollapse{
+        margin-left: 190px;
+        padding-left: 35px;
+    }
+    .navbar-nav{
+        padding: 0px 50px;
+    }
+}
+/* ### NAVBAR BUTTON END ### */
+
+
+/* ### HOMEPAGE START ### */
+@media screen and (max-width: 400px) and (min-width: 350px){
+    #homepara{
+        margin-top: -15px;
+    }
+    #homehead1{
+        font-size: 18px;
+    }
+    #homehead2{
+        line-height: 35px;
+        font-size: 30px;
+        width: auto;
+    }
+    #homepara2{
+        margin-top: 9px;
+        font-size: 13px;
+        width: auto;
+        line-height: 16px;
+    }
+    #btn{
+        width: 185px;       
+        height: 36px;
+        margin-top: 15px;
+        font-size: 11px;
+    }
+    #font1-1{
+        width: auto;
+        font-size: 13px;
+    }
+    #font2-1{
+        width: auto;
+        font-size: 13px;
+    }
+    #font3-1{
+        width: auto;
+        font-size: 13px;
+    }
+    #font1, #font2, #font3{
+        font-size: 25px;
+    }
+    #frgirl{
+        margin-left: 40px;
+        margin-top: 100px;
+        width: 440px;
+        height: 430px;
+    }
+    /* /* #frgirl_img2{
+        width: 190px;
+        height: 100px;
+        margin-top: -360px;
+        margin-left: -30px;
+    }
+    #frgirl_img3{
+        width: 190px;
+        height: 200px;
+        margin-top: -700px;
+        margin-left: 162px;
+    }
+    #frgirl_img4{
+        width: 60px;
+        height: 60px;
+        margin-top: -750px;
+        margin-left: 20px;
+    }
+    #frgirl_img5{
+        width: 60px;
+        height: 60px;
+        margin-top: -270%; 
+        margin-left: 140px;
+    } */
+    #frgirl_img6{
+        width: 40px;
+        height: 40px;
+        margin-top: -116%;
+        margin-left: 390px;
+    } 
+    #indexfootsect{
+        margin-top: -113px;
+        height: 300px;
+    }
+    .indexgrpimg{
+        margin-top: -150px;
+        margin-left: -120px;
+    }
+    #footer_img1, #footer_img2, #footer_img3{
+        width: 50px;
+        height: 50px;
+        margin-top: -30px;
+    }
+    #footcont{
+        margin-top: -10px;
+        margin-left: 12px;
+    }
+    #footcont2{
+        margin-left: 12px;
+        margin-top: -90px;
+    }
+    #footcont3{
+        margin-left: 12px;
+        margin-top: -90px;
+    }
+    #homehr1{
+        display:flex;
+        width: 50px;
+        height: 3px;
+        opacity: 80%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width: 400px){
+    #homepara{
+        margin-top: -15px;
+    }
+    #homehead1{
+        font-size: 18px;
+    }
+    #homehead2{
+        line-height: 35px;
+        font-size: 30px;
+        width: auto;
+    }
+    #homepara2{
+        margin-top: 9px;
+        font-size: 13px;
+        width: auto;
+        line-height: 16px;
+    }
+    #btn{
+        width: 185px;       
+        height: 36px;
+        margin-top: 15px;
+        font-size: 11px;
+    }
+    #font1-1{
+        width: auto;
+        font-size: 13px;
+    }
+    #font2-1{
+        width: auto;
+        font-size: 13px;
+    }
+    #font3-1{
+        width: auto;
+        font-size: 13px;
+    }
+    #font1, #font2, #font3{
+        font-size: 25px;
+    }
+    #frgirl{
+        margin-left: 40px;
+        margin-top: 100px;
+        width: 440px;
+        height: 430px;
+    }
+    /* /* #frgirl_img2{
+        width: 190px;
+        height: 100px;
+        margin-top: -360px;
+        margin-left: -30px;
+    }
+    #frgirl_img3{
+        width: 190px;
+        height: 200px;
+        margin-top: -700px;
+        margin-left: 162px;
+    }
+    #frgirl_img4{
+        width: 60px;
+        height: 60px;
+        margin-top: -750px;
+        margin-left: 20px;
+    }
+    #frgirl_img5{
+        width: 60px;
+        height: 60px;
+        margin-top: -270%; 
+        margin-left: 140px;
+    } */
+    #frgirl_img6{
+        width: 40px;
+        height: 40px;
+        margin-top: -116%;
+        margin-left: 390px;
+    } 
+    #indexfootsect{
+        margin-top: -113px;
+        height: 300px;
+    }
+    .indexgrpimg{
+        margin-top: -150px;
+        margin-left: -120px;
+    }
+    #footer_img1, #footer_img2, #footer_img3{
+        width: 50px;
+        height: 50px;
+        margin-top: -30px;
+    }
+    #footcont{
+        margin-top: -10px;
+        margin-left: 12px;
+    }
+    #footcont2{
+        margin-left: 12px;
+        margin-top: -90px;
+    }
+    #footcont3{
+        margin-left: 12px;
+        margin-top: -90px;
+    }
+    #homehr1{
+        display:flex;
+        width: 50px;
+        height: 3px;
+        opacity: 80%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:1225px) and (min-width:600px){
+    #homepara{
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    #homepara2{
+        font-size: 16px;
+        margin-top: 10px;
+        width: 350px;
+    }
+    #homehead1{
+        font-size: 18px;
+    }
+    #homehead2{
+        line-height: 40px;
+        font-size: 30px;
+    }
+    #btn{
+        margin-top: -30px;
+        width: 200px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .indexgrpimg{
+        margin-top: -200px;
+    }  
+    #frgirl{
+        margin-left: 290px;
+        margin-top: -220px;
+        width: 450px;
+        height: 470px;
+    }
+    /* #frgirl_img2{
+        width: 200px;
+        height: 100px;
+        margin-top: -360px;
+        margin-left: 265px;
+    }
+    #frgirl_img3{
+        width: 190px;
+        height: 200px;
+        margin-top: -88%;
+        margin-left: 525px;
+    }
+    #frgirl_img4{
+        width: 60px;
+        height: 60px;
+        margin-top: -100%;
+        margin-left: 370px;
+    }
+    #frgirl_img5{
+        width: 60px;
+        height: 60px;
+        margin-top: -135%; 
+        margin-left: 570px;
+    } */
+    #frgirl_img6{
+        width: 50px;
+        height: 50px;
+        margin-top: -65%;
+        margin-left: 635px;
+    }
+    #indexfootsect{
+        margin-top: -117px;
+        height: 170px;
+    }
+    #footer_img1, #footer_img2, #footer_img3{
+        width: 55px;
+        height: 55px;
+    }
+    #footer_img2{
+        margin-top: 150px;
+    }
+    #font1, #font2, #font3{
+        font-size: 20px;
+    }
+    #font1{
+        margin-top: 10px;
+    }
+    #font2{
+        margin-top: 160px;
+    }
+    #font1-1{
+        width: 150px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    #font2-1{
+        width: 150px;
+        font-size: 15px;
+        line-height: 18px;
+        margin-top: -10px;
+    }
+    #font3-1{
+        width: 140px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    #footcont{
+        margin-top: 1px;
+        margin-left: -30px;
+        width: 30px;
+    }
+    #footcont2{
+        margin-left: 225px;
+        margin-top: -152px;
+        width: 10px;
+    }
+    #footcont3{
+        margin-left: 480px;
+        margin-top: -154px;
+        width: 30px;
+    }
+}
+@media screen and (max-width: 1650px) and (min-width: 1225px){
+    #footcont3{
+        width: 350px;
+        margin-top: -180px;
+    }
+    #font3{
+        margin-top: 5px;
+    }
+    #font3-1{
+        width: 240px;
+        margin-top: -5px;
+        line-height: 18px;
+    }
+}
+/* ### HOME PAGE END ### */
+
+/* ### ABOUT PAGE START ### */
+@media screen and (max-width: 590px) and (min-width: 432px) {
+    #aboutus_titleimg{
+        padding-top: 240px;
+    }
+}
+@media screen and (max-width: 390px) { 
+    .aboutp{
+        font-size: 13px;
+    }
+    #aboutus_titleimg{
+        display: none;
+    }
+    #aboutimg1{
+        margin-top: -30px;
+    }
+    #welcomeabout{
+        margin-top: -5px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    #aboutimg1{
+        margin-left: 10px;
+        margin-left: 10px;
+    }
+    #aboutsurfaceimg1{
+        width: 275px;
+        height: 340px;
+        margin-top: -50px;
+    }
+    #aboutsurfaceimg{
+        width: 230px;
+        height: 240px;
+        margin-left: 110px;
+        margin-top: -150px;
+    }
+    #aboutus_titleimg{
+        width: 320px;
+        margin-left: 5px;
+        margin-top: -295%;
+    }
+    .text_about1-1{
+        width: 300px;
+        margin-left: 0px;
+        margin-top: -60px;
+    }
+    #aboutmainhead{
+        font-size: 13px;
+    }
+    #welcomeabout{
+        color: black;
+        font-weight: 100;
+        font-size: 18px;
+        margin-top: -10px;
+    }
+    .aboutp{
+        font-size: 13px;
+        width: 345px;
+        line-height: 18.5px;
+        margin-top: auto;
+    }
+    #btn1{
+        margin-top: -10px;
+        width: 110px;
+        height: 27px;
+        border-radius: 5px;
+        font-size: 11px;
+        padding-left: 10px;
+    }
+
+    /* ############################################# */
+    #secionabout{
+        height: 735px;
+    }
+    .text_about2{
+        margin-top: -35px;
+        margin-left: 0px;
+    }
+    #aboutourmissionhead{
+        font-size: 18px;
+    }
+    .aboutp1{
+        font-size: 13px;
+        line-height: 18.5px;
+        margin-top: auto;
+    }
+    #btn2{
+        margin-top: -10px;
+        width: 110px;
+        height: 27px;
+        border-radius: 5px;
+        font-size: 11px;
+        padding-left: 10px;
+    }
+    #aboutimg2{
+        margin-top: -50px;
+        width: 320px;
+        height: 320px;
+        margin-left: 0px;
+    }
+    #surface_2{
+        margin-top: -130%;
+        margin-left: -20px;
+        width: 230px;
+        height: 240px;
+    }
+    #surface_2_1{
+        margin-top: 130px;
+        width: 275px;
+        height: 340px;
+        margin-left: 55px;
+    }
+
+    
+    #welcomeabout-modal{
+        margin-left: 20px;
+        font-size: 19px;
+        line-height: 15px;
+    }
+    #mission-modal{
+        margin-left: 20px;
+        font-size: 19px;
+        line-height: 15px;
+    }
+    .modal-content{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 400px;
+        font-size: 13px;
+    }
+    #modalsentence{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #modalsentence-1, #modalsentence-2, #modalsentence-3 ,#modalsentence-4{
+        margin-top: -10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #modalsentence2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .close{
+        margin-left: 370px;
+    }
+    #modalwelcome{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width: 600px){
+    #section-about-1{
+        height: 470px;
+    }
+    #aboutimg1{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    #aboutsurfaceimg1{
+        width: 275px;
+        height: 340px;
+        margin-top: -66px;
+    }
+    #aboutsurfaceimg{
+        width: 230px;
+        height: 240px;
+        margin-left: 110px;
+        margin-top: -180px;
+    }
+    #aboutus_titleimg{
+        width: 440px;
+        margin-left: 250px;
+        margin-top: -136%;
+    }
+    .text_about1-1{
+        margin-left: 55%;
+        margin-top: -400px;
+        width: auto;
+    }
+    #aboutmainhead{
+        font-size: 16px;
+    }
+    #welcomeabout{
+        color: black;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: -10px;
+    }
+    .aboutp{
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+    #btn1{
+        margin-top: -10px;
+        width: 120px;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .modal-content{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        width: 700px;
+        font-size: 13px;
+    }
+    #welcomeabout-modal{
+        margin-left: 20px;
+        font-size: 19px;
+        line-height: 15px;
+    }
+    #mission-modal{
+        margin-left: 20px;
+        font-size: 19px;
+        line-height: 15px;
+    }
+    #modalsentence{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #modalsentence-1, #modalsentence-2, #modalsentence-3 ,#modalsentence-4{
+        margin-top: -20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #modalsentence2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .close{
+        margin-left: 96%;
+        margin-top: 10px;
+    }
+
+    /* ################################################# */
+    #secionabout{
+        height: 520px;
+    }
+    .text_about2{
+        margin-top: -30px;
+    }
+    #aboutimg2{
+        margin-top: -140px;
+        margin-left: -25px;
+    }
+    #aboutourmissionhead{
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    .aboutp1{
+        font-size: 15px;
+        width: 370px;
+        line-height: 19px;
+    }
+    #btn2{
+        margin-top: 5px;
+        width: 120px;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    #sectionabout2{
+        background-color: #32B3A7;
+        height: 0px;
+        margin-top: -20px;
+    }
+    #surface_2{
+        margin-top: -58%;
+        margin-left: 380px;
+        width: 230px;
+        height: 240px;
+    }
+    #surface_2_1{
+        width: 275px;
+        height: 340px;
+        margin-left: 62%;
+        margin-top: -50%;
+    }
+}
+
+@media screen and (max-width:1500px) and (min-width: 1000px){
+    #aboutus_titleimg{
+        width: 800px;
+        margin-left: 400px;
+        margin-top: -260%;
+    }
+    .text_about1-1{
+        margin-top: -600px;
+
+    }
+    #aboutimg2{
+        margin-top: -620px;
+    }
+    #surface_2{
+        margin-top: -117%;
+    }
+}
+/* ### ABOUT PAGE END ### */
+
+/* ### DEPARTMENT PAGE START ### */
+@media screen and (max-width: 395px) {
+    .deptsbox{
+        width: 200px;
+        height: 200px;
+        margin-left: -15px;
+    }
+    .deptsbox-paed{
+        width: auto;
+        height: auto;
+        margin-left: -15px;
+    }
+    #paedp, #derma, #entp, #cardio{
+        font-size: 14px;   
+    }
+}
+
+@media screen and (max-width:600px) {
+    #departmentsection{
+        height: 3245px;
+    }
+    .deptsbox-paed{
+        width: 360px;
+        height: 230px;
+    }
+    .deptsbox{
+        width: 360px;
+        height: 210px;
+    }
+    .deptpara{
+        font-size: 13px;
+        line-height: 18.5px;
+        width: auto;
+        padding-right: 20px;
+    }
+    #deptmainhead{
+        margin-top: -50px;
+        font-size: 18px;
+    }
+    #paed{
+        margin-top: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .depthead{
+        font-weight:700;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    #paedp{
+        font-size: 13px;
+    }
+    #derma, #entp, #cardio{
+        font-size: 13px; width: 330px;
+    }
+    #dept1{
+        margin-top: 0px;
+        margin-left: auto;
+    }
+    #dept2{
+        margin-top: 10px;
+    }
+    .mybuttons{
+        font-size: 13px;
+        margin-left: 15px;
+    }
+    #mybuttonid, #mybuttonid5, #mybuttonid6, #mybuttonid9, #mybuttonid11{
+        margin-top: 10px;
+    }
+    #mybuttonid3, #mybuttonid4, #mybuttonid8, #mybuttonid10, #mybuttonid12, #mybuttonid13{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:600px) {
+    #departmentsection{
+        height: 1900px;
+    }
+    #deptmainhead{
+        font-size: 20px;
+        margin-top: -18px;
+    }
+    .deptsbox{
+        width: 345px;
+        height: 230px;
+    }
+    .deptsbox-paed{
+        height: 250px;
+        width: 345px;
+    }
+    .depthead{
+        font-weight:700;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .deptpara{
+        font-size: 15px;
+        line-height: 17px;
+        width: 340px;
+    }
+    #dept1{
+        margin-top: -250px;
+        margin-left: 360px;
+    }
+    #dept2{
+        margin-top: 15px;
+    }
+    #paed{
+        width: 35px;
+        height: 35px;
+    }
+    #paedp{
+        font-size: 14px;
+        width: 300px;
+        margin-top: -10px;
+    }
+    #derma, #entp, #cardio{
+        width: 300px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    #cardio{
+        width: 330px;
+    }
+    .mybuttons{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1500px) and (min-width: 1000px){
+    #departmentsection{
+        height: 1760px;
+        width: auto;
+    }
+    .deptpara{
+        width: 740px;
+    }
+    .deptsbox-paed{
+        width: 370px;
+        height: 270px;
+        margin-left: 26px;
+        margin-top: 10px;
+    }
+    .deptsbox{
+        width: 370px;
+        height: 270px;
+    }
+    .ortho-box{
+        margin-left: 15px;
+    }
+    .derma-box{
+        margin-left: 69%;
+        margin-top: -270px;
+    }
+    .suregry-box{
+        margin-left: 25px;
+    }
+}
+/* ### DEPARTMENT PAGE END ### */
+
+/* ### SERVICE PAGE START ### */
+/* service facility start */
+@media screen and (max-width: 395px) and (min-width: 350px) {
+    #facilityhead{
+        margin-top: -5px;
+        font-size: 18px;
+    }
+    #facilitysect{
+        height: 1180px;
+    }
+    .facilitypara{
+        font-size: 13px;
+        width: 330px;
+        line-height: 17px;
+    }
+    #facilty_img2{
+        width: 240px;
+        height: 240px;
+        margin-left: 110px;
+        margin-top: -430px;
+    }
+    #facilty_img1{
+        width: 275px;
+        height: 340px;
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+    .facilabel{
+        margin-top: -20px;
+    }
+    #labelfaci{
+        height: 35px;
+        font-size: 13px;
+        padding-top: 7px;
+        width: 330px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    #labelfaci2{
+        height: 35px;
+        font-size: 13px;
+        padding-top: 7px;
+        margin-top: 5px;
+        width: 330px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    #labelfaci3{
+        height: 100px;
+        font-size: 13px;
+        padding-top: 7px;
+        margin-top: 5px;
+        width: 330px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    #faci3{
+        font-size: 12px;
+        font-family: "Inter", sans-serif; 
+        opacity: 90%;
+    }
+    #faci3_1{
+        font-size: 12px;
+        opacity: 90%;
+        font-family: "Inter", sans-serif; 
+    }
+    #labelfaci4, #labelfaci7{
+        height: 50px;
+        font-size: 13px;
+        padding-top: 5px;
+        margin-top: 5px;
+        width: 330px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    #labelfaci7{
+        height: 48px;
+    }
+    #labelfaci5, #labelfaci6{
+        height: 75px;
+        font-size: 13px;
+        padding-top: 5px;
+        margin-top: 5px;
+        width: 330px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px){   
+    #facilitysect{
+        height: 1170px;
+    }
+    #facilityhead{
+        margin-top: -5px;
+        font-size: 18px;
+    }
+    .facilitypara{
+        width: auto;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    #facilty_img1{
+        margin-top: 40px;
+        margin-left: 5px;
+        width: 275px;
+        height: 340px;
+    }
+    #facilty_img2{
+        margin-left: 145px;
+        margin-top: -410px;
+        width: 230px;
+        height: 240px;
+    }
+    .facilabel{
+        margin-top: -20px;
+    }
+    #labelfaci{
+        height: 40px;
+        font-size: 13px;
+        padding-top: 10px;
+        width: 355px;
+        margin-left: 5px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    #labelfaci2{
+        height: 40px;
+        font-size: 13px;
+        padding-top: 10px;
+        width: 355px;
+        margin-left: 5px;
+        margin-top: 5px;
+        border-radius: 5px;
+        font-weight: 500;
+    }
+    #labelfaci3{
+        height: 95px;
+        font-size: 13px;
+        padding-top: 5px;
+        width: 355px;
+        font-weight: 500;
+        margin-left: 5px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #faci3{
+        font-size: 12px;
+        padding-top: 5px;
+        font-family: "Inter", sans-serif; 
+        opacity: 90%;
+    }
+    #faci3_1{
+        font-size: 12px;
+        opacity: 90%;
+        font-family: "Inter", sans-serif; 
+    }
+    #labelfaci4, #labelfaci7{
+        height: 55px;
+        font-size: 13px;
+        padding-top: 7px;
+        width: 355px;
+        font-weight: 500;
+        margin-left: 5px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #labelfaci7{
+        height: 47px;
+    }
+    #labelfaci5, #labelfaci6{
+        height: 70px;
+        font-size: 13px;
+        padding-top: 6px;
+        width: 355px;
+        font-weight: 500;
+        margin-left: 5px;
+        margin-top: 5px;
+        border-radius: 5px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:650px){
+    #facilitysect{
+        height: 660px;
+    }
+    #facilityhead{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .facilitypara{
+        width: 650px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    #facilty_img1{
+        width: 275px;
+        height: 340px;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    #facilty_img2{
+        width: 180px;
+        height: 190px;
+        margin-left: 170px;
+        margin-top: -400px;
+    }
+    .facilabel{
+        margin-top: -400px;
+        margin-left: 250px;
+        width: 410px;
+    }
+    #labelfaci{
+        font-size: 13px;
+        height: 30px;
+        padding-top: 5px;
+    }
+    #labelfaci2{
+        font-size: 13px;
+        padding-top: 5px;
+        margin-top: 5px;
+        height: 30px;
+    }
+    #labelfaci3{
+        font-size: 13px;
+        padding-top: 4px;
+        margin-top: 5px;
+    }
+    #faci3, #faci3_1{
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: -5px;
+    }
+    #faci3_1{
+        width: 350px;
+    }
+    #labelfaci4{
+        height: 50px;
+        font-size: 13px;
+        margin-top: 5px;
+        padding-top: 3px;
+    }
+    #labelfaci5{
+        height: 100px;
+        font-size: 13px;
+        margin-top: 5px;
+        padding-top: 4px;
+        line-height: 18px;
+    }
+    #labelfaci6{
+        height: 98px;
+        font-size: 13px;
+        margin-top: 5px;
+        padding-top: 3px;
+        line-height: 18px;
+    }
+    #labelfaci7{
+        height: 50px;
+        font-size: 13px;
+        margin-top: 5px;
+        padding-top: 3px;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:650px){
+    /* #facilty_img2{
+        margin-top: -450px;
+    } */
+    #labelfaci, #labelfaci2{
+        margin-left: 100px;
+    }
+    #labelfaci3{
+        margin-left: 100px;
+        height: 70px;
+    }
+    #labelfaci4{
+        height: 45px;
+        margin-left: 100px;
+    }
+    #labelfaci5{
+        height: 64px;
+        margin-left: 100px;
+    }
+    #labelfaci6{
+        height: 64px;
+        margin-left: 100px;
+    }
+    #labelfaci7{
+        height: 40px;
+        line-height: 18px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:1550px) and (min-width:1200px){
+    #facilty_img2{
+        margin-top: -666px;
+    }
+    #facilitysect{
+        width: auto;
+    }
+    #labelfaci5, #labelfaci6{
+        height: 70px;
+        line-height: 18px;        
+        padding-top: 6px;
+    }
+}
+/* service facility */
+
+/* SERVICE HIGHLIGHT START */
+
+
+@media screen and (max-width: 395px) and (min-width: 350px) {
+    #highlightsection{
+        height: 1870px;
+    }
+    #serviceheading{
+        margin-top: -35px;
+        font-size: 18px
+    }
+    #doctorbox, #videobox, #labbox, #homecollectionbox{
+        margin-top: -10px;
+    }
+    #servpara1{
+        width: 420px;
+        height: 145px;
+        border-radius: 10px;
+        margin-top: -5px;
+    }
+    #servicebox1, #servicebox2, #servicebox3, #servicebox4{
+        margin-top: 15px;
+        width: 300px;
+        color: #475467;
+        font-size: 13px;
+        letter-spacing: .2px;
+        line-height: 18px;
+    }
+    #doctconsulthead, #vidconsulthead, #labservicehead, #homecollectionhead{
+        margin-top: 10px;
+        color: #101828;
+        font-size: 17px;
+    }
+    #servicebox1{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+    #highlightsection{
+        height: 1850px;
+    }
+    #serviceheading{
+        margin-top: -40px;
+        font-size: 18px;
+    }
+    #doctorbox, #videobox, #labbox, #homecollectionbox{
+        margin-top: -10px;
+    }
+    #servimg1{
+        width: 420px;
+        height: 280px;
+    }
+    #servpara1{
+        width: 420px;
+        height: 145px;
+        border-radius: 10px;
+        margin-top: -10px;
+    }   
+    #servicebox1, #servicebox2, #servicebox3, #servicebox4{
+        margin-top: 15px;
+        width: 320px;
+        color: #475467;
+        font-size: 13px;
+        letter-spacing: .2px;
+        line-height: 18px;
+    }
+    #doctconsulthead, #vidconsulthead, #labservicehead, #homecollectionhead{
+        margin-top: 10px;
+        color: #101828;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:650px){
+    #servicebox1{
+        height: 120px;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:650px){
+    #highlightsection{
+        height: 1120px;
+    }
+    #serviceheading{
+        font-size: 20px;
+        margin-top: -25px;
+    }
+    #servicebox1, #servicebox2, #servicebox3, #servicebox4{
+        height: 70px;
+        font-size: 15px;
+        line-height: 19px;
+    }
+    #doctconsulthead, #vidconsulthead, #labservicehead, #homecollectionhead{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1500px) and (min-width:1250px){
+    #highlightsection{
+        height: 760px;
+    }
+    #servicebox4{
+        height: 97px;
+        font-size: 15px;
+        line-height: 19px;
+    }
+}
+/* service highlight end */
+
+/* service hover start */
+@media screen and (max-width: 400px){
+    #centerhover{
+        width: 135px;
+        height: 135px;
+        margin-top: -355%;
+    }
+    #centerimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover6{
+        margin-top: 500px;
+        margin-left: 71px;
+    }
+    #cancerhover{
+        width: 135px;
+        height: 135px;
+        margin-top: -354%;
+    }
+    #cancerimg{
+        width: 135px;
+        height: 135px;
+        margin-top: 100px;
+    }
+    .imghover{
+        margin-top: -100px;
+        margin-left: 192px;
+    }
+    #specialhealthhover{
+        width: 135px;
+        height: 135px;
+        margin-top: -269px;
+    }
+    #specialhealthimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover1{
+        margin-left: -50px;
+        margin-top: -100px;
+    }
+    #womenshover{
+        width: 135px;
+        height: 135px;
+        margin-top: -269px;
+    }
+    #womenimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover2{
+        margin-left: -39px;
+        margin-top: -206px;
+    }
+    #diabeteshover{
+        width: 135px;
+        height: 135px;
+        margin-top: -269px;
+    }
+    #diabetesimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover3{
+        margin-left: 22px;
+        margin-top: -206px;
+    }
+    #cardiachover{
+        width: 135px;
+        height: 135px;
+        margin-top: -269px;
+    }
+    #cardiacimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover4{
+        margin-left: 10px;
+        margin-top: 6px;
+    }
+    #medicalhover{
+        width: 135px;
+        height: 135px;
+        margin-top: -270px;
+    }
+    #medicalimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover5{
+        margin-top: 6px;
+        margin-left: 22px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px){
+    #centerhover{
+        width: 135px;
+        height: 135px;
+        margin-top: -355%;
+    }
+    #centerimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover6{
+        margin-top: 450px;
+        margin-left: 95px;
+    }
+    #cancerhover{
+        width: 135px;
+        height: 135px;
+        margin-top: -354%;
+    }
+    #cancerimg{
+        width: 135px;
+        height: 135px;
+        margin-top: 100px;
+    }
+    .imghover{
+        margin-top: -100px;
+        margin-left: 220px;
+    }
+    #specialhealthhover{
+        width: 135px;
+        height: 135px;
+        margin-top: -269px;
+    }
+    #specialhealthimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover1{
+        margin-left: -30px;
+        margin-top: -100px;
+    }
+    #womenshover{
+        width: 135px;
+        height: 135px;
+        margin-top: -270px;
+    }
+    #womenimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover2{
+        margin-left: -35px;
+        margin-top: -209px;
+    }
+    #diabeteshover{
+        width: 135px;
+        height: 135px;
+        margin-top: -270px;
+    }
+    #diabetesimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover3{
+        margin-left: 25px;
+        margin-top: -209px;
+    }
+    #cardiachover{
+        width: 135px;
+        height: 135px;
+        margin-top: -269px;
+    }
+    #cardiacimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover4{
+        margin-left: 33px;
+        margin-top: 8px;
+    }
+    #medicalhover{
+        width: 135px;
+        height: 135px;
+        margin-top: -270px;
+    }
+    #medicalimg{
+        width: 135px;
+        height: 135px;
+    }
+    .imghover5{
+        margin-top: 8px;
+        margin-left: 26px;
+    }
+}
+
+
+@media screen and (max-width: 500px) and (min-width: 460px){
+    #centerhover{
+        width: 160px;
+        height: 160px;
+        margin-top: -355%;
+    }
+    #centerimg{
+        width: 160px;
+        height: 160px;
+    }
+    .imghover6{
+        margin-top: 400px;
+        margin-left: 116px;
+    }
+    #cancerhover{
+        width: 160px;
+        height: 160px;
+        margin-top: -354%;
+    }
+    #cancerimg{
+        width: 160px;
+        height: 160px;
+        margin-top: 100px;
+    }
+    .imghover{
+        margin-top: -100px;
+        margin-left: 263px;
+    }
+    #specialhealthhover{
+        width: 160px;
+        height: 160px;
+        margin-top: -269px;
+    }
+    #specialhealthimg{
+        width: 160px;
+        height: 160px;
+    }
+    .imghover1{
+        margin-left: -30px;
+        margin-top: -100px;
+    }
+    #womenshover{
+        width: 160px;
+        height: 160px;
+        margin-top: -269px;
+    }
+    #womenimg{
+        width: 160px;
+        height: 160px;
+    }
+    .imghover2{
+        margin-left: -27px;
+        margin-top: -227px;
+    }
+    #diabeteshover{
+        width: 160px;
+        height: 160px;
+        margin-top: -270px;
+    }
+    #diabetesimg{
+        width: 160px;
+        height: 160px;
+    }
+    .imghover3{
+        margin-left: 47px;
+        margin-top: -228px;
+    }
+    #cardiachover{
+        width: 160px;
+        height: 160px;
+        margin-top: -269px;
+    }
+    #cardiacimg{
+        width: 160px;
+        height: 160px;
+    }
+    .imghover4{
+        margin-left: 43px;
+        margin-top: 27px;
+    }
+    #medicalhover{
+        width: 160px;
+        height: 160px;
+        margin-top: -270px;
+    }
+    #medicalimg{
+        width: 160px;
+        height: 160px;
+    }
+    .imghover5{
+        margin-top: 28px;
+        margin-left: 47px;
+    }
+}
+
+ /* ***************** width 1000px to 600px ****************** */
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    #centerhover{
+        width: 145px;
+        height: 145px;
+        margin-top: -417%;
+        margin-left: -330%;
+    }
+    #centerimg{
+        width: 145px;
+        height: 145px;
+        margin-left: -197%;
+    }
+    .imghover6{
+        margin-top: -190%;
+        margin-left: 131%;
+    }
+    #cancerhover{
+        width: 145px;
+        height: 145px;
+        margin-top: -354%;
+    }
+    #cancerimg{
+        width: 145px;
+        height: 145px;
+        margin-top: 100px;
+    }
+    .imghover{
+        margin-top: -223%;
+        margin-left: 276px;
+    }
+    #specialhealthhover{
+        width: 145px;
+        height: 145px;
+        margin-top: -269px;
+    }
+    #specialhealthimg{
+        width: 145px;
+        height: 145px;
+    }
+    .imghover1{
+        margin-left: -367px;
+        margin-top: -223%;
+    }
+    #womenshover{
+        width: 145px;
+        height: 145px;
+        margin-top: -270px;
+    }
+    #womenimg{
+        width: 145px;
+        height: 145px;
+    }
+    .imghover2{
+        margin-left: -33px;
+        margin-top: -261%;
+    }
+    #diabeteshover{
+        width: 145px;
+        height: 145px;
+        margin-top: -270px;
+    }
+    #diabetesimg{
+        width: 145px;
+        height: 145px;
+    }
+    .imghover3{
+        margin-left: 210px;
+        margin-top: -286%;
+    }
+    #cardiachover{
+        width: 145px;
+        height: 145px;
+        margin-top: -270px;
+    }
+    #cardiacimg{
+        width: 145px;
+        height: 145px;
+    }
+    .imghover4{
+        margin-top: -210%;
+        margin-left: -234px;
+    }
+    #medicalhover{
+        width: 145px;
+        height: 145px;
+        margin-top: -270px;
+    }
+    #medicalimg{
+        width: 145px;
+        height: 145px;
+    }
+    .imghover5{
+        margin-top: -234%;
+        margin-left: 210px;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1000px){
+    #centerhover{
+        width: 240px;
+        height: 240px;
+        margin-top: -417%;
+        margin-left: -330%;
+    }
+    #centerimg{
+        width: 240px;
+        height: 240px;
+        margin-left: -322%;
+    }
+    .imghover6{
+        margin-top: 100px;
+        margin-left: -150px;
+    }
+    #cancerhover{
+        width: 240px;
+        height: 240px;
+        margin-top: -354%;
+    }
+    #cancerimg{
+        width: 240px;
+        height: 240px;
+        margin-top: 100px;
+    }
+    .imghover{
+        margin-top: 75px;
+        margin-left: -134px;
+    }
+    #specialhealthhover{
+        width: 240px;
+        height: 240px;
+        margin-top: -269px;
+    }
+    #specialhealthimg{
+        width: 240px;
+        height: 240px;
+    }
+    .imghover1{
+        margin-left: -535px;
+        margin-top: 75px;
+    }
+    #womenshover{
+        width: 240px;
+        height: 240px;
+        margin-top: -270px;
+    }
+    #womenimg{
+        width: 240px;
+        height: 240px;
+    }
+    .imghover2{
+        margin-left: 8px;
+        margin-top: -115px;
+    }
+    #diabeteshover{
+        width: 240px;
+        height: 240px;
+        margin-top: -270px;
+    }
+    #diabetesimg{
+        width: 240px;
+        height: 240px;
+    }
+    .imghover3{
+        margin-left: 118px;
+        margin-top: -115px;
+    }
+    #cardiachover{
+        width: 240px;
+        height: 240px;
+        margin-top: -270px;
+    }
+    #cardiacimg{
+        width: 240px;
+        height: 240px;
+    }
+    .imghover4{
+        margin-left: -310px;
+        margin-top: 265px;
+        margin-left: -317px;
+    }
+    #medicalhover{
+        width: 240px;
+        height: 240px;
+        margin-top: -270px;
+    }
+    #medicalimg{
+        width: 240px;
+        height: 240px;
+    }
+    .imghover5{
+        margin-top: 265px;
+        margin-left: 119px;
+    }
+}
+
+@media screen and (max-width: 1740px) and (min-width: 1300px){
+    #centerhover{
+        width: 230px;
+        height: 230px;
+        margin-top: -418%;
+        margin-left: -340%;
+    }
+    #centerimg{
+        width: 230px;
+        height: 230px;
+        margin-left: -308%;
+    }
+    .imghover6{
+        margin-top: 130px;
+        margin-left: 220px;
+    }
+    #cancerhover{
+        width: 230px;
+        height: 230px;
+        margin-top: -354%;
+    }
+    #cancerimg{
+        width: 230px;
+        height: 230px;
+        margin-top: 100px;
+    }
+    .imghover{
+        margin-top: 105px;
+        margin-left: -150px;
+    }
+    #specialhealthhover{
+        width: 230px;
+        height: 230px;
+        margin-top: -269px;
+    }
+    #specialhealthimg{
+        width: 230px;
+        height: 230px;
+    }
+    .imghover1{
+        margin-left: -516px;
+        margin-top: 106px;
+    }
+    #womenshover{
+        width: 230px;
+        height: 230px;
+        margin-top: -269px;
+    }
+    #womenimg{
+        width: 230px;
+        height: 230px;
+    }
+    .imghover2{
+        margin-left: 4px;
+        margin-top: -76px;
+    }
+    #diabeteshover{
+        width: 230px;
+        height: 230px;
+        margin-top: -270px;
+    }
+    #diabetesimg{
+        width: 230px;
+        height: 230px;
+    }
+    .imghover3{
+        margin-left: 109px;
+        margin-top: -76px;
+    }
+    #cardiachover{
+        width: 230px;
+        height: 230px;
+        margin-top: -270px;
+    }
+    #cardiacimg{
+        width: 230px;
+        height: 230px;
+    }
+    .imghover4{
+        margin-left: -310px;
+        margin-top: 285px;
+    }
+    #medicalhover{
+        width: 230px;
+        height: 230px;
+        margin-top: -270px;
+    }
+    #medicalimg{
+        width: 230px;
+        height: 230px;
+    }
+    .imghover5{
+        margin-top: 285px;
+        margin-left: 110px;
+    }
+}
+/* service hover end */
+
+/* service packages start */
+
+@media screen and (max-width: 400px) and (min-width: 300px){
+    #healthpackbg{
+        height: 830px;
+    }
+    .healthpack{
+        margin-left: auto;
+        margin-top: -285%;
+    }
+    .healthpack img{
+        margin-left: 15px;
+    }
+    #healthp1{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 130px;
+    }
+    #healthp2{
+        width: 350px;
+        margin-left: 20px;
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+    #healthh1{
+        font-size: 17px;
+        font-weight: 600;
+        margin-left: 20px;
+        opacity: 85%;
+        width: auto;
+    }   
+}
+
+@media screen and (max-width: 500px) and (min-width: 460px) {
+    #healthp1{
+        margin-top: 337px;
+    }
+    #healthp2{
+        margin-top: -2px;
+        width: auto;
+        background-color: #32B3A7;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px){
+    #healthpackbg{
+        height: 800px;
+    }
+    .healthpack{
+        margin-left: auto;
+        margin-top: -245%;
+    }
+    #healthp1{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 100px;
+    }
+    .healthpack img {
+        margin-left: 22px;
+    }
+    #healthh1{
+        margin-left: 22px;
+        margin-top: 5px;
+        width: 380px;
+        font-size: 17px;
+        font-weight: 600;
+        opacity: 85%;
+    }
+    #healthp2{
+        margin-left: 22px;
+        width: 370px;
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+}
+@media screen  {
+    
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    #healthpackbg{
+        height: 70px;
+    }
+    #healthpackbg2{
+        height: 300px;
+        margin-bottom: 120px;
+    }
+    .healthpack{
+        margin-left: 34px;
+        margin-top: -165%;
+        width: 680px;
+    }
+    #healthh1{
+        width: 340px;
+        font-size: 16px;    
+    }
+    #healthp1{
+        font-size: 20px;
+    }
+    #healthp2{
+        width: 320px;
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    #hoveringimgs{
+        margin-top: 70%;
+        width: 300px;
+        height: 300px;
+        margin-left: 40%; 
+    } 
+}
+@media screen and (max-width: 1400px) and (min-width: 900px) {
+    #healthpackbg{
+        height: 160px;
+    }
+    #healthpackbg2{
+        height: 320px;
+    }
+    .healthpack{
+        margin-left: 55px;
+        margin-top: -138%;
+    }
+    #healthh1{
+        width: 340px;
+        font-size: 16px; 
+    }
+    #hoveringimgs{
+        margin-top: 70%;
+        width: 300px;
+        height: 300px;
+        margin-left: 40%;
+    }
+    #healthp1{
+        font-size: 20px;
+    }
+    #healthp2{
+        width: 320px;
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 1640px) and (min-width: 1200px) {
+    #healthpackbg{
+        height: 500px;
+    }
+    .healthpack{
+        margin-left: 130px;
+        margin-top: -50%;
+    }
+    #healthh1{
+        width: 700px;
+        font-size: 23px;
+    }
+    #hoveringimgs{
+        margin-top: 5%;
+        width: 300px;
+        height: 300px;
+        margin-left: 40%;
+    } 
+    #healthp2{
+        width: 600px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+/* service packages end */
+
+/* ### SERVICE PAGE END ### */
+
+/* ### CONTACT PAGE START ### */
+@media screen and (max-width: 395px) and (min-width: 350px) {
+    #contactpara{
+        font-size: 13px;
+    }
+    #copyrightfirst, #copyrightsecond{
+        font-size: 13px;
+        margin-top: -10px;
+    }
+    #copyrighthr1{
+        width: 106px;
+        margin-left: auto;
+    }
+
+
+}
+@media screen and (max-width:600px) {
+    .contactmain{
+        margin-top: 10px;
+    }
+    #contacthead1{
+        margin-top: -50px;
+        font-size: 18px;
+    }
+    .contactimg{
+        height: 300px;
+    }
+    #contacthead{
+        width: auto;
+        margin-top: -15px;
+        font-size: 20px;
+    }
+    #contactpara{
+        width: 335px;
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 17px;
+        letter-spacing: .2px;
+    }    
+    #contactbtn-div{
+        margin-top: -15px;
+    }
+    #btn3{
+        width: 100px;
+        height: 28px;
+        border-radius: 5px;
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-top: 0px;
+        background-image: linear-gradient(to right, #32B3A7,#40beb0);
+    }
+    .footpara{
+        margin-top: auto;
+    }
+    .footpara2{
+        margin-top: 35px;
+    }
+    .footpara3{
+        margin-top: 15px;
+    }
+    .footpara4{
+        margin: auto;
+        margin-top: -125px;
+    }
+    #hr3{
+        width: auto;
+        display: none;
+    }
+
+    #contactfootersection{
+        height: 870px;
+    }
+    #mmmedicarelogo1{
+        width: 190px;
+    }
+    #contactheadpara{
+        font-size: 13px;
+    }
+    #headoffice{
+        margin-top: -20px;
+    }
+    #contactnoicon{
+        margin-top: -60px;
+    }
+    #headoffno1{
+        font-size: 13px; margin-top: -20px;
+    }
+    #headoffno2{
+        margin-top: -53px;
+        margin-left: 160px;
+        font-size: 13px;
+    }
+    #contactnoicon1{
+        margin-left: 160px;
+    }
+    #twitericon, #linkedinicon, #fbicon{
+        margin-top: -10px;
+    }
+
+    #branches{
+        margin-top: -27px;
+    }
+    #contacthr2{
+        margin-top: 10px;
+    }
+    #karuvanthalabranch{
+        font-size: 13px;
+        margin-top: -5px;
+    }
+    #arimboorbranch, #anthikadbranch{
+        margin-top: -39px;
+        font-size: 13px;
+    }
+    #kanjanybranch{
+        margin-top: -17px;
+        font-size: 13px;
+    }
+    #amalanagarbranch{
+        margin-top: -41px;
+        font-size: 13px;
+    }
+    #phoneicon1{
+        margin-top: -257px;
+    }
+    #phoneicon2{
+        margin-top: -199px;
+    }
+    #phoneicon3{
+        margin-top: -138px;
+    }
+    #phoneicon4{
+        margin-top: -190px;
+    }
+    #phoneicon5{
+        margin-top: -135px;
+    }
+    #karuvanthalanumb{
+        margin-top: -148px;
+        font-size: 13px;
+    }
+    #arimboornumb{
+        margin-top: 16px;
+        font-size: 13px;
+    }
+    #anthikadnumb{
+        margin-top: 17px;
+        font-size: 13px;
+    }
+    #amalanagarnumb{
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    #kanjanynumb{
+        margin-top: -116px;
+        font-size: 13px;
+    }
+
+    #companyhr{
+        margin-top: 10px;
+        display: flex;
+    }
+    #companyabout{
+        font-size: 13px;
+        margin-top: -5px;
+    }
+    #companydept, #companyservice, #companycontact{
+        font-size: 13px; margin-top: -10px;
+    }
+    .copyright{
+        margin-top: -70px;
+    }
+    #copyrightfirst, #copyrightsecond{
+        font-size: 13px;
+        margin-top: -10px;
+    }
+    #copyrighthr1{
+        width: 190px;
+        margin-left: 87px;
+    }
+    /* #copyrighthr2{
+        width: 80px;
+        margin-left: 197px;
+    } */
+    #workinghours{
+        font-size: 13px;
+        width: 340px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    #contactfootersection{
+        height: 550px;
+    }
+    .contactimg{
+        height: 300px;
+    }
+    .contactmain{
+        margin-top: -25px;
+    }
+    #contacthead1{
+        font-size: 18px;
+    }
+    #contacthead{
+        width: 500px;
+        margin-top: -10px;
+        font-size: 20px;
+    }
+    #contactpara{
+        font-size: 15px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
+    #contactbtn-div{
+        margin-top: -15px;
+    }
+    #btn3{
+        margin-top: 0px;
+        margin-left: 5px;
+        border-radius: 6px;
+        font-size: 13px; 
+        background-color:  #32B3A7;
+        padding: 7px 15px;
+    }
+    #mmmedicarelogo1{
+        width: 200px;
+    }
+    #headoffice{
+        margin-top: -30px;
+    }
+    #contactheadpara{
+        font-size: 14px;
+        margin-top: -5px;
+    }
+    #headoffno1{
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    #headoffno2{
+        font-size: 14px;
+        margin-top: -53px;
+        margin-left: 150px;
+    }
+    #contactnoicon1{
+        margin-left: 150px;
+        margin-top: -60px;
+    }
+    #twitericon, #linkedinicon, #fbicon{
+        margin-top: -16px;
+    }
+    #karuvanthalabranch{
+        font-size: 14px;
+        margin-top: -5px;
+    }
+    #arimboorbranch, #anthikadbranch, #amalanagarbranch{
+        font-size: 14px;
+        margin-top: -35px;
+    }
+    #kanjanybranch{
+        font-size: 14px; margin-top: 15px;
+    }
+
+    #karuvanthalanumb{
+        font-size: 14px; margin-top: -156px;
+    }
+    #arimboornumb, #anthikadnumb, #amalanagarnumb{
+        font-size: 14px; margin-top: 21px;
+    }
+    #kanjanynumb{
+        font-size: 14px; margin-top: -123px;
+    }
+
+    #phoneicon1{
+        margin-top: -270px;
+    }
+    #phoneicon2, #phoneicon4{
+        margin-top: -203px;
+    }
+    
+    #company{
+        font-size: 15px;
+        margin-top: -130px;
+    }
+    #companyhr{
+        width: 700px;
+        display: flex;
+        opacity: 10%;
+    }
+    #companyabout, #companydept, #companyservice, #companycontact{
+        font-size: 14px;
+        margin-top: -5px;
+    }
+    #companydept{
+        margin-top: -31px;
+        margin-left: 100px;
+    }
+    #companyservice{
+        margin-top: -31px;
+        margin-left: 230px;
+    }
+    #companycontact{
+        margin-top: -31px;
+        margin-left: 330px;
+    }
+
+    #hr3{
+        display: none;
+    }
+    .footpara{
+        margin-top: auto;
+    }
+    .footpara2{
+        margin-top: 101px;
+    }
+    .footpara3{
+        margin-top: -140px;
+        margin-left: 372px;
+    }
+    .footpara4{
+        margin-top: -160px;
+        margin-left: 0px;
+    }
+    .copyright{
+        margin-top: -140px;
+    }
+    #copyrightfirst, #copyrightsecond{
+        font-size: 14px;
+    }
+    #copyrighthr1{
+        width: 205px;
+        margin-left: 130px;
+    }
+
+    #workinghours{
+        font-size: 14px;
+        width: 250px;
+        margin-top: 35px;
+        margin-left: 370px;
+    }
+    
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1000px) {
+    #contactfootersection{
+        height: 630px;
+    }
+    .footpara2{
+        margin-left: 45px;
+    }
+    .footpara4{
+        margin-top: -157%;
+        margin-left: 425%;
+    }
+    .copyright{
+        margin-top: -150px;
+    }
+    #copyrighthr1{
+        width: 222px;
+        margin-left: 325px;
+    }
+}
+/* ### CONTACT PAGE END ### */
